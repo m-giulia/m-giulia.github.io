@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --white: #ffffff;
+    --light-grey: #ffffff8c;
+    --light-sky: #f1f6fd;
+}
+body {
+    margin: 0;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #495057;
+}
+a {
+    text-decoration: none;
+}
+section.bg-primary-alt {
+    background: var(--light-sky);
+}
+section.carte {
+    padding: 6rem 0;
+}
+.navbar {
+    border-bottom: 1px solid #ffffff14;
+} 
+.logo {
+    width: 80px;
+}
+.hero {
+    background: url('../images/fondo.png');
+}
+.hero > .container{
+    padding: 10em 0;
+}
+.hero h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--white);
+}
+.hero p {
+    color: var(--light-grey);
+}
+.form-control-lg {
+    height: calc(1.5em + 1.75rem + 2px);
+    padding: 0.875rem 0.875rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3125rem;
+}
+.btn-white {
+    background: #fff;
+    color: #3755be;
+    padding: 0.875rem 2.25rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3125rem;
+}
+.btn-primary-3 {
+    color: #fff;
+    background-color: #1b1f3b;
+    border-color: #1b1f3b;
+    padding: 0.875rem 2.25rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3125rem;
+}
+svg.icon[class*=bg-] {
+    background: 0 0 !important;
+}
+svg.bg-primary-alt * {
+    fill: #f1f6fd;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(0 0 0 / 13%);
+    border-radius: 0.625rem;
+}
+.card a {
+    font-weight: 600;
+    color: #0f66dc;
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 2rem;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+}
+.icon-round.bg-primary {
+    background: rgba(15, 102, 220, .1) !important;
+}
+svg.bg-primary * {
+    fill: #0f66dc;
+}
+.icon-round {
+    flex-shrink: 0;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-round>.icon {
+    height: 2.25rem;
+    width: 2.25rem;
+}
