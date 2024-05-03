@@ -10,6 +10,8 @@ function glassmorph() {
     document.querySelector('.logo-black').classList.remove('d-none');
     document.querySelector('.burger').classList.add('d-none');
     document.querySelector('.burger-black').classList.remove('d-none');
+    document.querySelector('.close').classList.add('d-none');
+    document.querySelector('.close-black').classList.remove('d-none');
     document.querySelector('.back-to-top').classList.remove('opacity-0');
   } else {
     document.getElementsByTagName('header')[0].classList.remove('fixed-top');
@@ -20,6 +22,8 @@ function glassmorph() {
     document.querySelector('.logo-black').classList.add('d-none');
     document.querySelector('.burger').classList.remove('d-none');
     document.querySelector('.burger-black').classList.add('d-none');
+    document.querySelector('.close').classList.remove('d-none');
+    document.querySelector('.close-black').classList.add('d-none');
     document.querySelector('.back-to-top').classList.add('opacity-0');
     
   }
